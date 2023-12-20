@@ -3,7 +3,7 @@ import styles from './Navbar.module.scss';
 import menu_items from './navbar.json';
 import { Bookmark, KeyboardArrowDownOutlined, KeyboardArrowUp, Settings, WhatsApp } from '@mui/icons-material';
 import Image from 'next/image';
-
+import Logo from '../../public/assets/images/logo.svg.svg';
 
 const Navbar = () => {
 
@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <div className={styles.wrapper}>
             <div className={styles.headerLogo}>
-                <img src="https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt='header-logo' loading='lazy' className={styles.headerLogoImage} width={50} height={50} />
+                <Image src={Logo} alt='header-logo' loading='lazy' className={styles.headerLogoImage} width={50} height={50} />
             </div>
             <ul className={styles.list_items}>
                 {menu_items.map((item : any) => {

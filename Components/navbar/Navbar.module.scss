@@ -4,19 +4,21 @@
     display: flex;
     align-items: center;
     background-color: #282424;
-    color: var(--white);
+    color: var(--light-white);
 
     .headerLogo {
         width: 12%;
         height: 100%;
         overflow: hidden;
-        border-radius: 1px solid ;
+        border-right: 1px solid #a7a7a7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         .headerLogoImage {
-            width: 124px; 
-            height: 100%;  
+            width: 117px;
+            height: 60%; 
             object-fit: cover; 
-            border-right: 1px solid var(--light-white);
         }
     }
 
@@ -33,6 +35,8 @@
             display: flex;
             gap: 2px;
             align-items: center;
+            opacity: 0.7;
+            font-size: 14px;
         }
 
         .list_icon {
@@ -55,9 +59,12 @@
         padding-right: 19px;
         padding-left: 19px;
         color: #E5B59E;
+        font-size: 14px;
 
         .lang {
-            color: var(--light-white)
+            color: var(--light-white);
+            font-size: 14px;
+            opacity: 0.7;
         }
     }
 
