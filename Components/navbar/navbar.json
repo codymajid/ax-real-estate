@@ -1,0 +1,37 @@
+[
+    {
+        "title" : "Buy",
+        "href" : "/buy",
+        "icon" : ""
+    },
+    {
+        "title" : "Rent",
+        "href" : "/rent",
+        "icon" : ""
+    },
+    {
+        "title" : "Off-Plan",
+        "href" : "/off-plan",
+        "icon" : ""
+    },
+    {
+        "title" : "Ax Blog",
+        "href" : "/ax-blog",
+        "icon" : "down_arrow"
+    },
+    {
+        "title" : "Catalogs",
+        "href" : "/catalogs",
+        "icon" : ""
+    },
+    {
+        "title" : "Agents",
+        "href" : "/agents",
+        "icon" : ""
+    },
+    {
+        "title" : "Who We Are",
+        "href" : "/about-us",
+        "icon" : ""
+    }
+]
